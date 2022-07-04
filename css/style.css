@@ -133,3 +133,25 @@ img {
     max-width: 768px;
    }
   }
+
+ @media (max-width: 480px) {
+   .container{
+    max-width: 480px;
+   }
+
+   .row{
+    flex-direction: column;
+    align-items: center;
+   }
+
+   .lessons .col,
+   .steps .col{
+    width: calc(100%/1);
+   }
+
+   .why-us{
+    background-color: rgb(38, 37, 37);
+   }
+  }
+
+  
