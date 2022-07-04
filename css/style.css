@@ -138,10 +138,11 @@ img {
    .container{
     max-width: 480px;
    }
-
+  
    .row{
     flex-direction: column;
     align-items: center;
+    gap: 3rem;
    }
 
    .lessons .col,
@@ -154,16 +155,20 @@ img {
     margin-bottom: 0px;
    }
 
+   .why-us .col-left{
+    width: 100%;
+   }
+
+   .why-us .col-right{
+    width: 80%;
+   }
+
    .why-us .container h2{
     padding-top: 3rem;
-
    }
+   
    .steps{
     margin-bottom: 0px;
-   }
-
-   .steps .card {
-    padding-bottom: 3rem;
    }
   }
 
