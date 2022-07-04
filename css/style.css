@@ -151,6 +151,15 @@ img {
 
    .why-us{
     background-color: rgb(38, 37, 37);
+    margin-bottom: 0px;
+   }
+
+   .why-us .container h2{
+    padding-top: 3rem;
+
+   }
+   .steps{
+    margin-bottom: 0px;
    }
   }
 
